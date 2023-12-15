@@ -75,7 +75,7 @@ const sendData = () => {
   const data = { name, email, message };
   const jsonData = JSON.stringify(data);
 
-  const url = "http://localhost:3001/api/message";
+  const url = "https://portfolioapi-nine.vercel.app/api/message";
   const otherPram = {
     headers: { "content-type": "application/json; charset=UTF-8" },
     mode: "cors",
