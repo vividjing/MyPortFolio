@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yunjing Portfolio Website</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Yunjing's Portfolio</a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Yunjing Zeng</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I am a fullstack developer with a passion for building beautiful and
+          functional web applications.
+        </p>
+        <div class="btn">My Tech Stack</div>
+        <div class="social-media">
+          <div><img src="./images/Html-logo.svg" alt="" /></div>
+          <div><img src="./images/css3.svg" alt="" /></div>
+          <div><img src="./images/JavaScript.svg" alt="" /></div>
+          <div><img src="./images/Nodejs.svg" alt="" /></div>
+          <div><img src="./images/react.svg" alt="" /></div>
+          <div><img src="./images/tailwind-css.svg" alt="" /></div>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="images/about.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="https://www.simplilearn.com/ice9/free_resources_article_thumb/full_stack_banner.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Fullstack Developer!</h3>
+        <p>
+          As a junior fullstack developer, I possess an imppressive arsenal of
+          skills in HTML, CSS, JavaScript, Nodejs, React and Tailwind. I excel
+          in designing and maintaining responsive websites that offer a smooth
+          user experience. My expertise lies in crafting dynamic, engaging
+          interfaces through writing clean and optimized code and utilizing
+          cutting-edge development tools and techniques. I am also a team player
+          who thrives in collaborating with cross-functional teams to produce
+          outstanding web applications.
+        </p>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/sneat.png" alt="" />
+          <div class="techLabel"><p>MERN STACK</p></div>
+
+          <div class="portfolio-layer">
+            <h4>Sneat Dashboard</h4>
+            <p>
+              Sneat Dashboard is a highly customizable React admin dashboard,
+              including various charts, seamless toggling between dark and light
+              modes, customizable theme colors, and robust schedule management.
+            </p>
+
+            <a target="_blank" href="https://sneat-dashboard.vercel.app/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/covilla.png" alt="" />
+          <div class="techLabel"><p>JavaScript</p></div>
+          <div class="portfolio-layer">
+            <h4>Covilla</h4>
+            <p>
+              Covilla is an elegantly crafted travel website that offers users a
+              seamless experience while exploring travel information. With a
+              user-friendly interface, Covilla provides easy navigation,
+              allowing users to effortlessly browse travel information.
+            </p>
+
+            <a target="_blank" href="https://covilla-sand.vercel.app/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/salinaka.png" alt="" />
+          <div class="techLabel redux"><p>React | Redux</p></div>
+          <div class="portfolio-layer">
+            <h4>Salinaka</h4>
+            <p>
+              Salinaka is an online eyewear store. With a commitment to
+              simplicity and a clean design, this store places a high priority
+              on user experience, ensuring customers can effortlessly access the
+              information they need.
+            </p>
+            <a target="_blank" href="https://salinaka-omega.vercel.app/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/weatherstack.png" alt="" />
+          <div class="techLabel"><p>HTML | CSS</p></div>
+          <div class="portfolio-layer">
+            <h4>Weatherstack</h4>
+            <p>
+              Get current weather information, historical data and forecasts
+              using weatherstack - a free world weather REST API supporting
+              millions of global locations.
+            </p>
+            <a href="https://weatherstack-flame.vercel.app/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <div class="emailInfo">
+        <div><img src="./images/email.svg" alt="" /> vividjing@gmail.com</div>
+        <div><img src="./images/shouji.svg" alt="" /> 347-410-0001</div>
+      </div>
+
+      <form action="#" id="form">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" name="name" id="name" />
+          <input
+            type="email"
+            placeholder="Email Address"
+            name="email"
+            id="email"
+          />
+        </div>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div id="success">Message received. Thanks for reaching me!</div>
+      <div id="fail">Some error there. Please try again.</div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Yunjing | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
